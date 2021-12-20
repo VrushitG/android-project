@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1887F"
+    tools:context=".add_vehicle">
+
+    <View
+        android:id="@+id/nwvehichle"
+        android:layout_width="412dp"
+        android:layout_height="84dp"
+        android:background="@drawable/nwvehichle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/youremail"
+        android:layout_marginTop="113dp"
+        android:hint="Enter registered email"
+
+        android:textColorHint="#3E2723"
+        android:textColor="#3E2723"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/carname"
+        android:layout_marginTop="168dp"
+        android:hint="Enter name of car"
+        android:textColorHint="#3E2723"
+        android:textColor="#3E2723"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:hint="Enter lincense plate number"
+        android:textColorHint="#3E2723"
+        android:textColor="#3E2723"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/savebtn"
+        android:hint="Enter name of car(Optional)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <View
+        android:id="@+id/savevehichle"
+        android:layout_width="412dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="785dp"
+        android:background="@drawable/rec_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="792dp"
+        android:layout_marginEnd="180dp"
+        android:background="@drawable/canclebtn1"
+        android:hint="Enter name of car(Optional)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

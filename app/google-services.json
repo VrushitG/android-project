@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "917177129956",
+    "project_id": "try4-c720b",
+    "storage_bucket": "try4-c720b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917177129956:android:063a5b3a99c3e3b1fac5f1",
+        "android_client_info": {
+          "package_name": "com.example.try4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917177129956-fptv5t0b3dsm6okuo1i8fgt5i4r8s8vg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA42FRU74TECLl3HX2SJTbz3tgnRQ1VtfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917177129956-fptv5t0b3dsm6okuo1i8fgt5i4r8s8vg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

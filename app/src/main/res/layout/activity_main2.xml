@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="@drawable/h2">
+
+    <TextView
+        android:background="@drawable/logintxth2"
+        android:id="@+id/textView"
+        android:layout_width="128dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="94dp"
+        android:layout_height="58dp"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="246dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="50dp"
+        android:hint="Email"
+        android:cursorVisible="false"
+        android:textColorHint="#6D6D6D"
+        android:textColor="#6D6D6D"
+        android:textAlignment="center"
+        android:background="@drawable/usernameh2" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="246dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="9dp"
+        android:hint="Password"
+        android:cursorVisible="false"
+        android:textColorHint="#6D6D6D"
+        android:textColor="#6D6D6D"
+        android:textAlignment="center"
+        android:background="@drawable/passh2" />
+
+
+    <ImageButton
+        android:id="@+id/logbtn"
+        android:layout_width="246dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/loginbtnh2"
+        android:text="Sign up"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</LinearLayout>
